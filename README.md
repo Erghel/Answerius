@@ -3,7 +3,6 @@
 
 </p>
 <p align="center">
-  <a href="https://addons.mozilla.org/addon/answerius/"><img src="https://img.shields.io/amo/v/answerius?style=flat-square" alt="Badge"></img></a>
   <a href="https://addons.mozilla.org/addon/answerius/"><img src="https://img.shields.io/amo/users/answerius?style=flat-square" alt="Badge"></img></a>
 </p>
 
