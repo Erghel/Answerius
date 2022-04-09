@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Answerius",
-  "version": "2.0.0.3",
+  "name": "ZeroEyes",
+  "version": "2.0.1.0",
   "description": "Gives you more control over your privacy. Don't let anyone keep your requests.",
   "icons": {
-    "16": "images/logo_16.png"
+    "48": "images/logo48.webp"
   },
   "content_scripts": [
     {
@@ -32,7 +32,7 @@
     "webRequestBlocking"
   ],
   "browser_action": {
-    "default_title": "Answerius",
+    "default_title": "ZeroEyes",
     "default_popup": "popup.html"
   }
 }
