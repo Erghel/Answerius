@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "ZeroEyes",
-  "version": "2.0.1.0",
+  "version": "2.0.2.0",
   "description": "Gives you more control over your privacy. Don't let anyone keep your requests.",
   "icons": {
     "48": "images/logo48.webp"
@@ -10,10 +10,10 @@
     {
       "js": ["content.js"],
       "matches": [
-        "https://www.lukol.com/*",
+        "https://www.lukol.com/s.php?*",
         "https://duckduckgo.com/*",
-        "https://searx.be/*",
-        "https://search.brave.com/*",
+        "https://searx.be/search*",
+        "https://search.brave.com/search?*",
         "https://www.google.ru/search?*",
         "https://www.google.com/search?*",
         "https://swisscows.com/web?*",
