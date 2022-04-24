@@ -6,7 +6,7 @@
   <a href="https://addons.mozilla.org/addon/answerius/"><img src="https://img.shields.io/amo/users/answerius?style=flat-square" alt="Badge"></img></a>
 </p>
 
-<h1 align="center">ZeroEyes (Answerius)</h1>
+<h1 align="center">Privacy Redirect (Search) (ex-Answerius)</h1>
 <p>Расширение, которое поможет сделать запрос любой информации через поисковики, которые уважают вашу <b>приватность и анонимность</b>.</p>
 <p>Добавляет кнопки поисковиков, где вы выбираете через какой вы хотите сделать текущий запрос. Расширение считывает запрос и открывает его в выбранном поисковике.</p>
 <p>Список поисковиков доступных для использования:</p>
