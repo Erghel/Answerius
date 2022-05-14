@@ -1,0 +1,176 @@
+@import 'variables.scss';
+@import '../../node_modules/materialize-css/sass/components/color-variables';
+
+$primary-color: color('indigo', 'lighten-2') !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+
+$secondary-color: color('indigo', 'lighten-1') !default;
+$success-color: color('green', 'base') !default;
+$error-color: color('red', 'base') !default;
+$link-color: color('light-blue', 'darken-1') !default;
+
+@import '../../node_modules/materialize-css/sass/materialize';
+
+html {
+	font-size: 130%;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.pseudo-body {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 1280px;
+	height: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.input_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.my_btn {
+	display: inline-flex;
+	align-items: center;
+	font-size: inherit;
+	text-transform: none !important;
+}
+
+.cards,
+.input_container {
+	padding-top: 2rem;
+}
+
+.card_icon {
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+	padding: 24px;
+	border-radius: 50%;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		filter: drop-shadow(0px 0px 4px #000);
+	}
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+
+header {
+	* {
+		color: inherit;
+	}
+	.nav-wrapper * {
+		color: inherit;
+	}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	a:not([href]) {
+		cursor: auto;
+		opacity: 0.4;
+		user-select: none;
+		&:hover {
+			background-color: transparent;
+		}
+	}
+}
+
+nav {
+	height: auto;
+	min-height: 64px;
+	background-color: transparent;
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+footer {
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+		0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.main_link {
+	&:hover {
+		text-decoration: underline !important;
+	}
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.dark {
+	.card_icon {
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+.eMail {
+	font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+	.input_container {
+		flex-direction: column;
+	}
+	.search {
+		width: 100%;
+		margin-right: 0;
+	}
+	.go_button {
+		justify-content: center;
+		width: 100%;
+		padding: 2rem;
+	}
+	h2 {
+		font-size: 2.3rem;
+	}
+	h1 {
+		font-size: 2.6em;
+	}
+}
+
+@media (max-width: 480px) {
+	html {
+		font-size: 100%;
+	}
+}
+
+@media (max-width: 360px) {
+	html {
+		font-size: 92%;
+	}
+}
+
+@media (max-width: 380px) {
+	h2 {
+		font-size: 2rem;
+	}
+	h1 {
+		font-size: 2.3em;
+	}
+}
