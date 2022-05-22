@@ -2,7 +2,7 @@
   <img src="images/logo.png" alt="Logo" />
 </p>
 <p align="center">
-  <a href="https://addons.mozilla.org/addon/answerius/"><img src="https://img.shields.io/amo/users/answerius?style=flat-square" alt="Badge" /></a>
+  <a href="https://addons.mozilla.org/ru/firefox/addon/privacysearch-/"><img src="https://img.shields.io/amo/users/privacysearch-?style=flat-square" alt="Badge" /></a>
 </p>
 
 <h1 align="center">Privacy Redirect (Search) (ex-Answerius)</h1>
